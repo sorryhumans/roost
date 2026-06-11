@@ -1,0 +1,16 @@
+{
+  "agents": [
+    {
+      "id": "writer",
+      "name": "Writer",
+      "project": "/home/you/projects/blog-agent",
+      "tmux": { "session": "agents", "window": "writer" },
+      "metric": { "type": "fileCount", "dir": "/home/you/projects/blog-agent/posts", "label": "Posts" }
+    },
+    {
+      "id": "coder",
+      "name": "Coder",
+      "project": "/home/you/projects/api"
+    }
+  ]
+}

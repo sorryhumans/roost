@@ -1,0 +1,13 @@
+{
+  "name": "roost",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A live 3D office for your Claude Code agents — a read-only dashboard where working agents type at their desks and idle ones hang out by the cooler.",
+  "license": "MIT",
+  "scripts": {
+    "setup": "npm --prefix server install && npm --prefix web install",
+    "build": "npm --prefix web run build",
+    "start": "npm --prefix server start",
+    "test": "npm --prefix server test && npm --prefix web test"
+  }
+}

@@ -1,0 +1,212 @@
+{
+ "desk": {
+  "id": "6PbVkqPzEU",
+  "uuid": "0716218b-3aae-48e6-8ddd-185cf7f7b7d7",
+  "license": "CC0 1.0",
+  "author": "Kenney",
+  "tris": 0
+ },
+ "desk_alt": {
+  "id": "YJyJam67hJ",
+  "uuid": "b8d0347a-c711-4eb4-8b8b-cda390d3840f",
+  "license": "CC0 1.0",
+  "author": "CreativeTrio",
+  "tris": 0
+ },
+ "desk_exec": {
+  "id": "maMILE0taC",
+  "uuid": "d5f171ab-bee8-477a-bd9d-111b4f0fa426",
+  "license": "CC-BY 3.0",
+  "author": "Zsky",
+  "tris": 0
+ },
+ "chair_office": {
+  "id": "dCEsSsJJ1Md",
+  "uuid": "839cb27a-f920-48d4-805c-6b8c02ca9fcf",
+  "license": "CC-BY 3.0",
+  "author": "CMHT Oculus",
+  "tris": 0
+ },
+ "chair_blue": {
+  "id": "UfKvrZBK6C",
+  "uuid": "ac2301f3-af86-435a-885a-d8f1a32f9f76",
+  "license": "CC0 1.0",
+  "author": "Quaternius",
+  "tris": 0
+ },
+ "chair_exec": {
+  "id": "hW11P9DDXa",
+  "uuid": "08501afc-f719-4755-bb1c-6757c13f5b56",
+  "license": "CC-BY 3.0",
+  "author": "Zsky",
+  "tris": 0
+ },
+ "monitor": {
+  "id": "Qyw8JFtZF0",
+  "uuid": "6c463197-7b41-4adc-ba6a-158ddca043be",
+  "license": "CC-BY 3.0",
+  "author": "Zsky",
+  "tris": 0
+ },
+ "monitor_imac": {
+  "id": "5qZ5IaClHHw",
+  "uuid": "167a91d0-f44e-446e-8600-ff85d2e12c6e",
+  "license": "CC-BY 3.0",
+  "author": "Poly by Google",
+  "tris": 0
+ },
+ "laptop": {
+  "id": "UGOWjMUC5U",
+  "uuid": "c5e17526-37cf-42e5-b5f0-b426e1774e91",
+  "license": "CC-BY 3.0",
+  "author": "J-Toastie",
+  "tris": 0
+ },
+ "laptop_dark": {
+  "id": "bxB1L0m8LzZ",
+  "uuid": "af6774b2-c748-47e6-9454-119e9e34c976",
+  "license": "CC-BY 3.0",
+  "author": "Poly by Google",
+  "tris": 0
+ },
+ "bookcase": {
+  "id": "tACDGJ4CGW",
+  "uuid": "7d59d0aa-6447-4bbb-afc7-0452e9a34353",
+  "license": "CC0 1.0",
+  "author": "Quaternius",
+  "tris": 0
+ },
+ "file_cabinet": {
+  "id": "9732ObD3OY",
+  "uuid": "f3276cac-07d4-4924-a3a2-62fec8e315b9",
+  "license": "CC-BY 3.0",
+  "author": "J-Toastie",
+  "tris": 0
+ },
+ "counter": {
+  "id": "o4uTiih0wF",
+  "uuid": "449528c5-bf32-4134-b109-e8dbacf24b49",
+  "license": "CC-BY 3.0",
+  "author": "Zsky",
+  "tris": 0
+ },
+ "couch": {
+  "id": "mWgQ94zhDZ",
+  "uuid": "92a2404e-10d5-4c6a-a188-18b556474f8f",
+  "license": "CC0 1.0",
+  "author": "Quaternius",
+  "tris": 0
+ },
+ "armchair": {
+  "id": "X9msj0gtb5",
+  "uuid": "ebb719a8-7b5d-418a-a5d2-0cb102f86c1f",
+  "license": "CC0 1.0",
+  "author": "Quaternius",
+  "tris": 0
+ },
+ "coffee_table": {
+  "id": "dP74Xz2DlMe",
+  "uuid": "e1efc2b6-cece-40ae-953a-effe688f2dfc",
+  "license": "CC-BY 3.0",
+  "author": "Francisco Hui",
+  "tris": 0
+ },
+ "water_cooler": {
+  "id": "zWi9p5FSxD",
+  "uuid": "a410e1d9-246d-4613-89a3-90001853c6a2",
+  "license": "CC-BY 3.0",
+  "author": "J-Toastie",
+  "tris": 0
+ },
+ "vending": {
+  "id": "yNG4vqWVq0",
+  "uuid": "f304a5bb-48bc-49f1-846a-7705854099f3",
+  "license": "CC-BY 3.0",
+  "author": "dook",
+  "tris": 0
+ },
+ "coffee_machine": {
+  "id": "EWVe4TaOiB",
+  "uuid": "1bb04a6d-b862-4f36-a161-459cb23c1ff0",
+  "license": "CC-BY 3.0",
+  "author": "J-Toastie",
+  "tris": 0
+ },
+ "plant_white": {
+  "id": "7ig0HcyfT93",
+  "uuid": "85628984-4f9f-4576-957c-0001ed867c92",
+  "license": "CC-BY 3.0",
+  "author": "Jakers_H",
+  "tris": 0
+ },
+ "plant_monstera": {
+  "id": "bfLOqIV5uP",
+  "uuid": "1683c0b1-4dd9-4d45-910e-cf3e46f163f5",
+  "license": "CC0 1.0",
+  "author": "Quaternius",
+  "tris": 0
+ },
+ "plant_palm": {
+  "id": "8Qwgncb6dJT",
+  "uuid": "582ab41e-9b94-4722-8aac-3800000019d6",
+  "license": "CC-BY 3.0",
+  "author": "Poly by Google",
+  "tris": 0
+ },
+ "whiteboard": {
+  "id": "3H2QAoXoHnC",
+  "uuid": "d5272da3-1a7f-4fee-a456-1a8e79816772",
+  "license": "CC-BY 3.0",
+  "author": "Poly by Google",
+  "tris": 0
+ },
+ "printer": {
+  "id": "7NKDv75jVeg",
+  "uuid": "a599b61e-55fd-45bc-888f-92a222e1133f",
+  "license": "CC-BY 3.0",
+  "author": "Poly by Google",
+  "tris": 0
+ },
+ "desk_lamp": {
+  "id": "QPSkIimiV6",
+  "uuid": "a164accc-24fe-4832-8975-f8cec3bb0421",
+  "license": "CC-BY 3.0",
+  "author": "Zsky",
+  "tris": 0
+ },
+ "floor_lamp": {
+  "id": "1nKtMmYxLT",
+  "uuid": "cc9fbab2-f93f-4dfc-947b-b91f10a7b6bb",
+  "license": "CC0 1.0",
+  "author": "CreativeTrio",
+  "tris": 0
+ },
+ "trash": {
+  "id": "i7HDuYDLkx",
+  "uuid": "2e578103-ce2b-4b31-af0b-af507a52ebc2",
+  "license": "CC0 1.0",
+  "author": "Quaternius",
+  "tris": 0
+ },
+ "clock": {
+  "id": "dwZRvbXlAus",
+  "uuid": "373e3e08-4bc8-47f2-8b9b-f7ddeef2f8f2",
+  "license": "CC-BY 3.0",
+  "author": "Poly by Google",
+  "tris": 0
+ },
+ "rug_round": {
+  "id": "ZYBzMHnSbM",
+  "uuid": "e4c1f718-dd57-4542-8f06-1e00dfeb009f",
+  "license": "CC0 1.0",
+  "author": "Quaternius",
+  "tris": 0
+ },
+ "rug_modern": {
+  "id": "d1qCwgKV7se",
+  "uuid": "d68fa6be-e66c-49a8-ad2d-809ec2152f8b",
+  "license": "CC-BY 3.0",
+  "author": "jeremy",
+  "tris": 0
+ }
+}

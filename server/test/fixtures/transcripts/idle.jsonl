@@ -1,0 +1,4 @@
+{"type":"ai-title","title":"some session title metadata"}
+{"type":"user","timestamp":"2026-06-08T10:00:00.000Z","sessionId":"s2","uuid":"u1","message":{"role":"user","content":"hello"}}
+{"type":"assistant","timestamp":"2026-06-08T10:00:01.000Z","sessionId":"s2","uuid":"u2","message":{"role":"assistant","model":"claude","content":[{"type":"tool_use","name":"Grep","id":"t1","input":{"pattern":"foo"}}]}}
+{"type":"assistant","timestamp":"2026-06-08T10:00:05.000Z","sessionId":"s2","uuid":"u3","message":{"role":"assistant","model":"claude","content":[{"type":"text","text":"All done, here is the summary of what I found."}]}}

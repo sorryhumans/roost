@@ -1,0 +1,3 @@
+# Keeps the etsy fixtures dir tracked. The Etsy metric test builds a temp dir
+# tree in os.tmpdir() at runtime (with a stray non-_ FILE among product dirs)
+# rather than committing real product dirs.

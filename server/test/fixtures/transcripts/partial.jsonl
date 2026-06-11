@@ -1,0 +1,4 @@
+{"type":"user","timestamp":"2026-06-08T11:00:00.000Z","sessionId":"s3","uuid":"u1","message":{"role":"user","content":"edit the config"}}
+{"type":"assistant","timestamp":"2026-06-08T11:00:01.000Z","sessionId":"s3","uuid":"u2","message":{"role":"assistant","model":"claude","content":[{"type":"text","text":"Editing now."}]}}
+{"type":"assistant","timestamp":"2026-06-08T11:00:02.000Z","sessionId":"s3","uuid":"u3","message":{"role":"assistant","model":"claude","content":[{"type":"tool_use","name":"Edit","id":"t1","input":{"file_path":"/cfg.json"}}]}}
+{"type":"assistant","timestamp":"2026-06-08T11:00:03.000Z","sessionId":"s3","uuid":"u4","message":{"role":"assistant","model":"claude","content":[{"type":"tool_use","name":"Bash","id":"t2

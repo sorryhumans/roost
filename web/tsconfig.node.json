@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    /* Node-context configs (vite.config.ts / vitest.config.ts) — kept for editor/tooling
+       clarity. The root tsconfig.json also includes these files in a single noEmit
+       type-check pass (npm run typecheck), so no project references / build emit needed. */
+    "target": "ES2022",
+    "lib": ["ES2023"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "types": ["node"]
+  },
+  "include": ["vite.config.ts", "vitest.config.ts"]
+}
