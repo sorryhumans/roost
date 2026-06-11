@@ -146,7 +146,7 @@ export class OfficeEngine {
 
     this.lights();
     this.room();
-    this.opts.onProgress?.('Будуємо офіс…');
+    this.opts.onProgress?.('Building the office…');
     const furniture = await loadFurniture({
       desk: 'ash',
       ...(this.pal.chair ? { chair_blue: this.pal.chair } : {}),
@@ -155,7 +155,7 @@ export class OfficeEngine {
     this.buildScreens(furniture.tops);
     this.buildDeskProps(furniture.tops);
 
-    this.opts.onProgress?.('Запрошуємо людей…');
+    this.opts.onProgress?.('Inviting the people…');
     await this.spawnActors();
     // statuses may have arrived while we were still building: paint them now
     if (this.agentData.size) this.setAgents([...this.agentData.values()]);
@@ -558,7 +558,7 @@ export class OfficeEngine {
     if (id === 'boss') {
       dot.style.background = '#b48cff';
       dot.style.boxShadow = '0 0 8px #b48cff';
-      act.textContent = 'керує офісом';
+      act.textContent = 'running the office';
     }
   }
 

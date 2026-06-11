@@ -14,11 +14,7 @@ export function Hud({ agents, connected }: { agents: AgentState[]; connected: bo
     const t = setInterval(() => setNow(new Date()), 20_000);
     return () => clearInterval(t);
   }, []);
-  const time = now.toLocaleTimeString('uk-UA', {
-    hour: '2-digit',
-    minute: '2-digit',
-    timeZone: 'Europe/London',
-  });
+  const time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
   const liveColor = connected ? STATUS_UI.working.color : STATUS_UI.unknown.color;
 
   return (
@@ -46,7 +42,6 @@ export function Hud({ agents, connected }: { agents: AgentState[]; connected: bo
         ) : null}
         <div className="ml-auto rounded-xl border border-border/70 bg-bg/55 px-md py-xs text-body font-semibold tabular-nums text-text-primary backdrop-blur-md">
           {time}
-          <span className="ml-2 text-label normal-case text-text-faint">London</span>
         </div>
       </header>
 
@@ -67,7 +62,7 @@ export function Hud({ agents, connected }: { agents: AgentState[]; connected: bo
           ))}
         </div>
         <p className="px-md text-center text-label normal-case text-text-faint">
-          тягни — обертати · щипок — зум · тап по людині — фокус
+          drag to orbit · pinch to zoom · tap a person to focus
         </p>
       </footer>
     </div>

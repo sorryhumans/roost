@@ -13,7 +13,7 @@ export function OfficeScene({ agents, onFail }: { agents: AgentState[]; onFail: 
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const labelsRef = useRef<HTMLDivElement>(null);
   const engineRef = useRef<OfficeEngine | null>(null);
-  const [progress, setProgress] = useState<string | null>('Завантажуємо офіс…');
+  const [progress, setProgress] = useState<string | null>('Loading the office…');
 
   useEffect(() => {
     if (!canvasRef.current || !labelsRef.current || engineRef.current) return;
