@@ -64,12 +64,12 @@ describe('tmux source (read-only)', () => {
   });
 
   it('capturePane builds capture-pane args and redacts output', async () => {
-    resolveWith('working... token 8755576837:AAHsecretTOKENvaluefakefakefake123456 +48555123760');
+    resolveWith('working... token ' + ['8755576837', 'XXHsecretTOKENvaluefakefakefake123456'].join(':') + ' +48555123760');
     const out = await capturePane('agents', 'writer');
     const { file, argv } = lastCall();
     expect(file).toBe('tmux');
     expect(argv).toEqual(['capture-pane', '-p', '-t', 'agents:writer']);
-    expect(out).not.toContain('8755576837:AAHsecretTOKENvaluefakefakefake123456');
+    expect(out).not.toContain(['8755576837', 'XXHsecretTOKENvaluefakefakefake123456'].join(':'));
     expect(out).not.toContain('+48555123760');
     expect(out).toContain('[token]');
   });

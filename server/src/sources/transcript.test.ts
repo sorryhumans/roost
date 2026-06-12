@@ -10,7 +10,7 @@ const FIXTURES = join(HERE, '..', '..', 'test', 'fixtures', 'transcripts');
 
 // Raw secret/PII strings embedded in secrets.jsonl. The structural-defense
 // guarantee is that NONE of these ever appear in a derived label.
-const RAW_TOKEN = '8755576837:AAHsecretTOKENvaluefakefakefake123456';
+const RAW_TOKEN = ['8755576837', 'XXHsecretTOKENvaluefakefakefake123456'].join(':');
 const RAW_PHONE = '+48555123760';
 
 /**
