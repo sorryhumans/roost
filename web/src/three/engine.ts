@@ -651,7 +651,11 @@ export class OfficeEngine {
   // ------------------------------------------------------------------ mood ----
 
   private applyMood() {
-    const h = new Date().getHours() + new Date().getMinutes() / 60;
+    const hourParam = new URLSearchParams(window.location.search).get('hour');
+    const h =
+      hourParam !== null && !Number.isNaN(Number(hourParam))
+        ? Number(hourParam)
+        : new Date().getHours() + new Date().getMinutes() / 60;
     let night = 0;
     if (h >= 21 || h < 5.5) night = 1;
     else if (h >= 17.5) night = (h - 17.5) / 3.5;
